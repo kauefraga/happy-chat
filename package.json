@@ -5,14 +5,19 @@
   "scripts": {
     "build": "tsup src/",
     "start": "node .",
-    "dev" : "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts"
   },
   "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/koa__router": "^12.0.4",
     "@types/node": "^20.9.0",
     "tsup": "^7.2.0",
     "tsx": "^4.0.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "koa": "^2.14.2"
   }
 }
